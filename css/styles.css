@@ -1,0 +1,216 @@
+body, html {
+  height: 100%;
+  background-color: black;
+}
+.bg {
+  /* The image used (image located in the css folder) */
+  background-image: url("BackgroundPicture.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+p {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1rem;
+  opacity: .7;
+}
+
+h1 {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 2rem;
+  opacity: .8;
+
+}
+
+h2 {
+  color: #eec60a;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1rem;
+  opacity: .6;
+}
+
+h3 {
+  font-family: "Milonga", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+
+h5 {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+/* for carousel captions and responsiveness*/
+@media only screen and (max-width: 800px) {
+  h5 {
+      font-size: 2rem;
+
+  }
+}
+
+
+/* nav bar stuff */
+/* Navigation Bar Note for fonts: font-family: 'Milonga', cursive; */
+.navbar {
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-brand {
+  font-family: "Milonga", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+
+}
+
+#MiddleContent {
+margin-top: 100px;
+position: relative;
+
+}
+
+.background-tint {
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heading-tint {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  padding-top: 100px;
+  right: 20px;
+
+}
+
+#sign-up {
+  position: relative;
+  background-color: black;
+  text-align: center;
+}
+
+.invisible-Block {
+  padding-top: 330px;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .invisible-Block {
+      display: none;
+  }
+}
+
+
+#footer{
+  background-color: black;
+  line-height: 2.5;
+  text-align: center;
+
+}
+
+.footer-icons {
+  margin: 10px;
+  color: white;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-top: 10px;
+
+}
+
+
+/* sign-up form section */
+
+.form-section {
+  padding: 10px 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-section {
+      padding: 10px 25px;
+  }
+}
+
+.carouselPictures {
+  width: 900px;
+  height: auto;
+}
+
+/* Contact-Section Styles */
+.contact-sectionStyles {
+  background-color: white;
+  padding: 10px 0 10px;
+  text-align: center;
+
+}
+
+.contact-boxes {
+  padding: 0 30px;
+  border-style: none solid none none;
+  border-width: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-boxes{
+      border-style: none;
+      padding: 20px 0;
+  }
+}
+
+.contact-PText {
+  color: black;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1rem;
+  line-height: normal;
+
+}
+
+.contact-wrapper {
+  padding: 30px 0;
+}
+
+h4 {
+  color: black;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 2rem;
+}
+
+h6 {
+font-family: "Milonga", cursive;
+font-size: 6rem;
+font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  h6{
+      font-size: 4rem;
+  }
+}
+
+.contact-heading {
+  padding: 40px 0;
+}
