@@ -50,7 +50,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse show" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#collapseAbout" data-toggle="collapse" data-target="#collapseAbout">About</a>
@@ -60,6 +60,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sign-up">Join</a>
           </li>
         </ul>
       </div>
@@ -72,18 +75,16 @@
 <section id="MiddleContent"> <!-- containing the "About Us" section-->
 <div class="container-fluid">
 
-  <div class="row">
+<div class="col-lg-12 invisibleBlock">
 
+</div>
 
-    <div class="col-lg-6 invisible-Block">
-    </div>
-
-    <div class="col-lg-6">
-      <div id="collapseAbout" class="collapse show">
+    <div class="col-lg-12">
+      <div id="collapseAbout" class="collapse">
         <div class="background-tint">
       <h1>About Us</h1>
       <p>We're a retreat designed specifically for writers. Since 2010, The Wright Retreat has been accommodating authors from all over the world.</p>
-      <p>During your stay, you'll find every detail has been carefully looked after to maximize productivity. We hate writer's block too.</p>
+      <p class="aboutme-Pfont">During your stay, you'll find every detail has been carefully looked after to maximize productivity. We hate writer's block too.</p>
       <p>Within our acres, there is the expectation to keep all chatter to a library level of quiet at all times. We believe this atmosphere of serenity engages and activates the creative chambers of the mind.</p>
       <p>Happy writing, we hope you'll join us!</p>
         </div>
@@ -91,7 +92,7 @@
     </div>
 
     </div> <!--  close row div -->
-  </div>
+
 </section> <!--  end of "About Us Collapse" section-->
 
 <!-- Carousel Section -->
@@ -165,9 +166,12 @@
 
 
 <section  id="sign-up">    <!-- form section -->
-<div class="form-section">
-    <h1 class="section-heading">Stay connected.</h1>
-    <p>Join our active community of authors.</p>
+<div class="fluid-container section-heading">
+  <h1 class="section-headingHFont">Stay connected.</h1>
+  <p class="section-headingPFont">Join our active community of authors.</p>
+</div>
+
+<div class="form-section container">
 <form>
   <div class="form-row">
     <div class="form-group col-md-6">

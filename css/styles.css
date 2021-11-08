@@ -20,15 +20,21 @@ body, html {
 p {
   color: white;
   font-family: "Libre Caslon Text", serif;
+  font-size: 1.5rem;
+
+}
+
+p .aboutme-Pfont {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
   font-size: 1rem;
-  opacity: .7;
 }
 
 h1 {
   color: white;
   font-family: "Libre Caslon Text", serif;
-  font-size: 2rem;
-  opacity: .8;
+  font-size: 3rem;
+
 
 }
 
@@ -36,7 +42,7 @@ h2 {
   color: #eec60a;
   font-family: "Libre Caslon Text", serif;
   font-size: 1rem;
-  opacity: .6;
+
 }
 
 h3 {
@@ -81,9 +87,10 @@ h5 {
 }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Libre Caslon Text", serif;
   font-weight: 400;
+  color: white !important;
 
 }
 
@@ -94,7 +101,7 @@ position: relative;
 }
 
 .background-tint {
-background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.8);
 }
 
 .heading-tint {
@@ -105,22 +112,18 @@ background-color: rgba(0, 0, 0, 0.5);
 
 }
 
+.invisibleBlock{
+  padding: 100px;
+}
+
+
 #sign-up {
   position: relative;
   background-color: black;
   text-align: center;
 }
 
-.invisible-Block {
-  padding-top: 330px;
 
-}
-
-@media only screen and (max-width: 900px) {
-  .invisible-Block {
-      display: none;
-  }
-}
 
 
 #footer{
@@ -136,24 +139,38 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section-heading {
-  font-size: 2rem;
-  line-height: 1.5;
-  padding-top: 10px;
-
+  padding-top: 200px;
+  font-size: 6rem;
 }
 
+.section-headingHFont {
+  font-family: "Milonga", cursive;
+  font-size: 6rem;
+  font-weight: 500;
+  color: white;
+}
+
+.section-headingPFont {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
 
 /* sign-up form section */
 
 .form-section {
-  padding: 10px 300px;
+  padding: 20px 250px 100px 250px;
 }
 
 @media only screen and (max-width: 992px) {
   .form-section {
-      padding: 10px 25px;
+      padding: 50px 100px;
   }
 }
+
+
+
 
 .carouselPictures {
   width: 900px;
